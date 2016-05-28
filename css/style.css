@@ -95,7 +95,7 @@ body a:hover{
 }
 .navbar-nav {
     float: none;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     border: 1px solid #fff;
 }
@@ -450,7 +450,7 @@ p.dolor{
 	margin:.5em 0 0;
 	color:#999;
 	line-height:1.8em;
-	font-size:14px;
+	font-size:18px;
 	text-align:center;
 	position:relative;
 	padding-bottom:1em;
@@ -460,7 +460,7 @@ p.dolor:after{
     position: absolute;
     bottom: 0%;
     left: 47.5%;
-    background: #F8BE1E;
+    
     width: 5%;
     height: 3px;
 }
@@ -1292,7 +1292,7 @@ figure.effect-julia:hover p {
 		padding: 0.7em 0 0;
 	}
 	.navbar-nav {
-		width: 68%;
+		width: 58%;
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -245px 0px;
@@ -1414,7 +1414,7 @@ figure.effect-julia:hover p {
 		padding: 15px 25px;
 	}
 	.navbar-nav {
-		width: 75%;
+		width: 65%;
 	}
 	.banner {
 		min-height: 715px;
