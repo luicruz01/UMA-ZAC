@@ -244,7 +244,7 @@ ul.social-icons li .icon-button .pinterest:hover{
     color: #F8BE1E;
     line-height: 1.8em;
     margin: 2em auto;
-    width: 65%;
+    width: 35%;
     text-transform: capitalize;
     text-align: center;
 	position:relative;
@@ -267,7 +267,7 @@ ul.social-icons li .icon-button .pinterest:hover{
     height: 25px;
     position: absolute;
     bottom: 0%;
-    right: 20%;
+    right: 1%;
 }
 .banner-bottom-grid p{
 	margin:1em 0 0;
@@ -1303,7 +1303,7 @@ figure.effect-julia:hover p {
 		-ms-background-size: cover;
 	}
 	.banner-bottom-grids h3 {
-		width: 80%;
+		width: 30%;
 	}
 	#box {
 		width: 285px;
