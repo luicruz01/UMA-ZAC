@@ -457,6 +457,11 @@ ul.social-icons li .icon-button .pinterest:hover{
     padding: 10px;
 }
 
+.venado{
+    padding-top: 50px;
+    margin-top: -35px;
+}
+
 .dolor3{
     color:#F8BE1E;
     text-align: center;
@@ -1260,6 +1265,7 @@ figure.effect-julia:hover p {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
+        margin-top: -330px;
 	}
 	.about-bottom-left {
 		padding: 4em 2em 4.05em 13em;
