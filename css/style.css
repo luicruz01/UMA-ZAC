@@ -449,7 +449,26 @@ ul.social-icons li .icon-button .pinterest:hover{
     font-size: 45px;
     text-align: center;
 }
-
+.services h3{
+    font-size: 45px;
+    text-align: center;
+}
+.gallery h3{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.trofeos h3{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact h3{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 .caza{
     width: 100%;
     height:300px;
