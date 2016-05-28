@@ -438,7 +438,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 	background:#61bc6d;
 }
 .about h3,.services h3,.mail h3,.gallery h3,.trofeos h3,.contact h3,{
-	font-size: 3em;
+	font-size: 45px;
     color: #39BC54;
     margin: 0;
     text-align: center;
@@ -446,6 +446,20 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 .about h3{
 	color:#fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+.services h3{
+    
+}
+
+.dolor3{
+    color:#F8BE1E;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    font-weight: bold;
 }
 p.dolor{
 	margin:.5em 0 0;
@@ -610,14 +624,15 @@ p.dolor:after{
 /*-- //block-1 --*/
 .about-grid h4{
 	text-transform:capitalize;
-	font-size:1.5em;
-	color:#F8BE1E;
+	font-size:24px;
+	color:#fff;
 	margin:0;
 	line-height:1.5em;
+    
 }
 .about-grid p{
 	margin:1em 0 3em;
-	color:#FFF;
+	color: #fff;
 	line-height:1.8em;
 	font-size:14px;
 }
@@ -1321,7 +1336,7 @@ figure.effect-julia:hover p {
 		margin: 2em 0 0;
 	}
 	.about h3, .services h3, .mail h3, .gallery h3, .trofeos h3, .contact h3 {
-		font-size: 2.5em;
+		font-size: 45px;
 	}
 	.block-1 {
 		width: 27.6em;
@@ -1603,7 +1618,7 @@ figure.effect-julia:hover p {
 		margin: 2em auto;
 	}
 	.about h3, .services h3, .mail h3, .gallery h3, .trofeos h3, .contact h3 {
-		font-size: 2em;
+		font-size: 45px;
 	}
 	.about-bottom-left h3 {
 		font-size: 1.2em;
@@ -2037,7 +2052,7 @@ figure.effect-julia:hover p {
 		height: 2px;
 	}
 	.about h3, .services h3, .mail h3, .gallery h3 {
-		font-size: 1.7em;
+		font-size: 45px;
 	}
 	.about-grids {
 		margin: 2em 0 0;
