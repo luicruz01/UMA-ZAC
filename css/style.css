@@ -437,7 +437,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 	margin:5em 0 0;
 	background:#61bc6d;
 }
-.about h3,.services h3,.mail h3,.gallery h3{
+.about h3,.services h3,.mail h3,.gallery h3,.trofeos h3,.contact h3,{
 	font-size: 3em;
     color: #39BC54;
     margin: 0;
@@ -1311,7 +1311,7 @@ figure.effect-julia:hover p {
 		width: 285px;
 		height: 210px;
 	}
-	.banner-bottom, .about, .services, .mail, .gallery {
+	.banner-bottom, .about, .services, .mail, .gallery, .trofeos, .contact{
 		padding: 4em 0;
 	}
 	.banner-bottom-grids h3 {
@@ -1320,7 +1320,7 @@ figure.effect-julia:hover p {
 	.about {
 		margin: 2em 0 0;
 	}
-	.about h3, .services h3, .mail h3, .gallery h3 {
+	.about h3, .services h3, .mail h3, .gallery h3, .trofeos h3, .contact h3 {
 		font-size: 2.5em;
 	}
 	.block-1 {
@@ -1424,7 +1424,7 @@ figure.effect-julia:hover p {
 	.banner-bottom-grids h3 {
 		width: 100%;
 	}
-	.banner-bottom, .about, .services, .mail, .gallery {
+	.banner-bottom, .about, .services, .mail, .gallery, .trofeos, .contact {
 		padding: 3em 0;
 	}
 	#box {
@@ -1587,7 +1587,7 @@ figure.effect-julia:hover p {
 	.navbar-toggle {
 		margin: 1em 0 0 17.2em;
 	}
-	.banner-bottom, .about, .services, .mail, .gallery {
+	.banner-bottom, .about, .services, .mail, .gallery, .trofeos, .contact {
 		padding: 2em 0;
 	}
 	.banner-bottom-grids h3 {
@@ -1602,7 +1602,7 @@ figure.effect-julia:hover p {
 	.banner-bottom-grid:nth-child(3) {
 		margin: 2em auto;
 	}
-	.about h3, .services h3, .mail h3, .gallery h3 {
+	.about h3, .services h3, .mail h3, .gallery h3, .trofeos h3, .contact h3 {
 		font-size: 2em;
 	}
 	.about-bottom-left h3 {
