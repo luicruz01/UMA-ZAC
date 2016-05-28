@@ -450,8 +450,11 @@ ul.social-icons li .icon-button .pinterest:hover{
     text-align: center;
 }
 
-.services h3{
-    
+.caza{
+    width: 100%;
+    height:300px;
+    text-align: center;
+    padding: 10px;
 }
 
 .dolor3{
