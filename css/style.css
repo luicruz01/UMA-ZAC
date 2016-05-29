@@ -95,7 +95,7 @@ body a:hover{
 }
 .navbar-nav {
     float: none;
-    width: 75%;
+    width: 61%;
     margin: 0 auto;
     border: 1px solid #fff;
 }
@@ -223,7 +223,8 @@ ul.social-icons li .icon-button .pinterest:hover{
 	text-align:center;
 }
 .banner-bottom-top span{
-	background: url(../images/img-sp.png) no-repeat 0px -57px;
+	background: url(../images/img-sp.png) no-repeat;
+  background-size: cover;
     display: block;
     width: 84px;
     height: 140px;
@@ -434,7 +435,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 /*-- //banner-bottom --*/
 /*-- about --*/
 .about{
-	margin:5em 0 0;
+	margin:0 0 0;
 	background:#61bc6d;
 }
 .about h3,.services h3,.mail h3,.gallery h3,.trofeos h3,.contact h3,{
@@ -450,12 +451,10 @@ ul.social-icons li .icon-button .pinterest:hover{
     text-align: center;
 }
 .services h3{
-    margin-top: -110px;
     font-size: 45px;
     text-align: center;
 }
 .gallery h3{
-    margin-top: -110px;
     font-size: 45px;
     text-align: center;
     padding-bottom: 20px;
@@ -505,7 +504,7 @@ p.dolor:after{
     position: absolute;
     bottom: 0%;
     left: 47.5%;
-    
+
     width: 5%;
     height: 3px;
 }
@@ -539,7 +538,53 @@ p.dolor:after{
 	-o-transition:all 0.25s ease-in-out;
 	transition:all 0.25s ease-in-out;
 }
+.block-2{
+	position: relative;
+    width: 33.8em;
+    height: 18em;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
 
+.block-2 .thumbs{
+	width:100%;
+	height:100%;
+}
+.block-2 .thumbs img{
+	position:relative;
+	min-width:100%;
+	max-height:150%;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition:all 0.25s ease-in-out;
+	-mos-transition:all 0.25s ease-in-out;
+	-o-transition:all 0.25s ease-in-out;
+	transition:all 0.25s ease-in-out;
+}
+.block-2:hover .thumbs img{
+	-webkit-transform: translateY(-3.438em);
+	-moz-transform: translateY(-3.438em);
+	-mos-transform: translateY(-3.438em);
+	-o-transform: translateY(-3.438em);
+	transform: translateY(-3.438em);
+}
+
+.block-2 figcaption{
+	position:absolute;
+	width:100%;
+	height:2.188em;
+	left:0;
+	bottom:-4.063em;
+	color:#fff;
+	background:#F8BE1E;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition:all 0.25s ease-in-out;
+	-mos-transition:all 0.25s ease-in-out;
+	-o-transition:all 0.25s ease-in-out;
+	transition:all 0.25s ease-in-out;
+	z-index:5;
+}
 .block-1:hover .thumbs img{
 	-webkit-transform: translateY(-3.438em);
 	-moz-transform: translateY(-3.438em);
@@ -657,11 +702,17 @@ p.dolor:after{
 	color:#fff;
 	margin:0;
 	line-height:1.5em;
-    
+
 }
 .about-grid p{
 	margin:1em 0 3em;
 	color: #fff;
+	line-height:1.8em;
+	font-size:20px;
+}
+.about-grude .custom-text{
+	margin:1em 0 3em;
+	color: #000;
 	line-height:1.8em;
 	font-size:20px;
 }
@@ -1249,7 +1300,7 @@ figure.effect-julia:hover p {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1280,7 +1331,7 @@ figure.effect-julia:hover p {
 }
 @media (max-width:1440px){
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -120px 0px;
+		background: url(../images/banner.jpg) no-repeat;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1993,7 +2044,7 @@ figure.effect-julia:hover p {
 @media (max-width:320px){
 	.logo-top-left p {
 		font-size: 11px;
-	}	
+	}
 	.logo h1 a {
 		font-size: 1.3em;
 	}
