@@ -95,7 +95,7 @@ body a:hover{
 }
 .navbar-nav {
     float: none;
-    width: 61%;
+    width: 68%;
     margin: 0 auto;
     border: 1px solid #fff;
 }
@@ -1391,7 +1391,7 @@ figure.effect-julia:hover p {
 		padding: 0.7em 0 0;
 	}
 	.navbar-nav {
-		width: 68%;
+		width: 70%;
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -245px 0px;
